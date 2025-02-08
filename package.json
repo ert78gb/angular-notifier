@@ -35,22 +35,22 @@
     "test:library:upload-coverage": "codecov -f coverage/coverage-final.json"
   },
   "dependencies": {
-    "tslib": "2.6.x"
+    "tslib": "2.8.x"
   },
   "peerDependencies": {
-    "@angular/common": ">= 17.0.0 < 18.0.0",
-    "@angular/core": ">= 17.0.0 < 18.0.0"
+    "@angular/common": ">= 18.0.0 < 19.0.0",
+    "@angular/core": ">= 18.0.0 < 19.0.0"
   },
   "devDependencies": {
-    "@angular-builders/jest": "17.0.x",
-    "@angular-devkit/build-angular": "17.0.x",
-    "@angular/cli": "17.0.x",
-    "@angular/common": "17.0.x",
-    "@angular/compiler": "17.0.x",
-    "@angular/compiler-cli": "17.0.x",
-    "@angular/core": "17.0.x",
-    "@angular/platform-browser": "17.0.x",
-    "@angular/platform-browser-dynamic": "17.0.x",
+    "@angular-builders/jest": "18.0.0",
+    "@angular-devkit/build-angular": "^18.2.14",
+    "@angular/cli": "^18.2.14",
+    "@angular/common": "^18.2.13",
+    "@angular/compiler": "^18.2.13",
+    "@angular/compiler-cli": "^18.2.13",
+    "@angular/core": "^18.2.13",
+    "@angular/platform-browser": "^18.2.13",
+    "@angular/platform-browser-dynamic": "^18.2.13",
     "@types/jest": "29.5.x",
     "@types/node": "20.x",
     "@types/web-animations-js": "2.2.x",
@@ -64,13 +64,13 @@
     "eslint-plugin-prettier": "5.0.x",
     "eslint-plugin-simple-import-sort": "10.0.x",
     "jest": "29.7.x",
-    "ng-packagr": "17.0.x",
+    "ng-packagr": "18.2.1",
     "prettier": "3.1.y",
     "rimraf": "3.0.x",
     "rxjs": "7.8.x",
     "sass": "1.69.x",
     "ts-node": "10.9.x",
-    "typescript": "5.2.x",
+    "typescript": "5.4.x",
     "zone.js": "0.14.x"
   }
 }

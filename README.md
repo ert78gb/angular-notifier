@@ -32,7 +32,7 @@ npm install angular-notifier
 The following list describes the compatibility with Angular:
 
 | Angular Notifier | Angular | Compilation        |
-| ---------------- | ------- | ------------------ |
+|------------------|---------| ------------------ |
 | `1.x`            | `2.x`   | View Engine        |
 | `2.x`            | `4.x`   | View Engine        |
 | `3.x`            | `5.x`   | View Engine        |
@@ -48,6 +48,7 @@ The following list describes the compatibility with Angular:
 | `13.x`           | `15.x`  | Ivy (partial mode) |
 | `14.x`           | `16.x`  | Ivy (partial mode) |
 | `15.x`           | `17.x`  | Ivy (partial mode) |
+| `16.x`           | `18.x`  | Ivy (partial mode) |
 
 <br><br><br>
 

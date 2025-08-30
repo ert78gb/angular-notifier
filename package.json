@@ -68,7 +68,7 @@
     "prettier": "3.1.y",
     "rimraf": "3.0.x",
     "rxjs": "7.8.x",
-    "sass": "1.69.x",
+    "sass": "1.91.0",
     "ts-node": "10.9.x",
     "typescript": "5.4.x",
     "zone.js": "0.14.x"

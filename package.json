@@ -53,6 +53,7 @@
     "@types/jest": "29.5.x",
     "@types/node": "20.x",
     "@types/web-animations-js": "2.2.x",
+    "angular-eslint": "18.4.3",
     "copyfiles": "2.4.x",
     "eslint": "9.34.0",
     "eslint-config-prettier": "10.1.8",

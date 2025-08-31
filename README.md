@@ -49,6 +49,7 @@ The following list describes the compatibility with Angular:
 | `14.x`           | `16.x`  | Ivy (partial mode) |
 | `15.x`           | `17.x`  | Ivy (partial mode) |
 | `16.x`           | `18.x`  | Ivy (partial mode) |
+| `17.x`           | `19.x`  | Ivy (partial mode) |
 
 <br><br><br>
 

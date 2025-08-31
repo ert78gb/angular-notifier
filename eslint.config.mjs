@@ -4,7 +4,7 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import tsEslint from 'typescript-eslint';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 
-const globalIgnores = ['.idea', '**/dist', '**/node_modules', 'node_modules'];
+const globalIgnores = ['.angular', '.idea', 'coverage', '**/dist', '**/node_modules', 'node_modules'];
 
 export default tsEslint.config(
   { ignores: globalIgnores },
@@ -27,6 +27,7 @@ export default tsEslint.config(
       },
     },
     rules: {
+      '@angular-eslint/prefer-standalone': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-floating-promises': 'off',
       '@typescript-eslint/no-redundant-type-constituents': 'off',

@@ -9,6 +9,7 @@ import { NotifierService } from 'angular-notifier';
     class: 'app',
   },
   selector: 'app',
+  standalone: false,
   templateUrl: './app.component.html',
 })
 export class AppComponent {

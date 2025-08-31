@@ -29,6 +29,7 @@ import { NotifierTimerService } from '../services/notifier-timer.service';
     NotifierTimerService,
   ],
   selector: 'notifier-notification',
+  standalone: false,
   templateUrl: './notifier-notification.component.html',
 })
 export class NotifierNotificationComponent implements AfterViewInit {

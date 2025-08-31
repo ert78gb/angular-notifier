@@ -27,6 +27,7 @@ import { NotifierNotificationComponent } from './notifier-notification.component
     class: 'notifier__container',
   },
   selector: 'notifier-container',
+  standalone: false,
   templateUrl: './notifier-container.component.html',
 })
 export class NotifierContainerComponent implements OnDestroy {
